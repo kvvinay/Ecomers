@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#container{
+    background-color: #e4e3f3;
+    width: 100%;
+    height: 569px;
+}
+
+/* ==========================================*******MARGIN CSS*******========================================== */
+
+#menu{
+    background-color: #3b5998;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 5px 4px #2f55d1;
+}
+#logo{
+    float: left;
+    width: 50%;
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 90px;
+}
+#logsig{
+    /* background-color: magenta; */
+    float: right;
+    width: 50%;
+    height: 90px;
+    color: white;
+}
+#logintable{
+    /* background-color: maroon; */
+    margin: auto;
+    margin-top: 6.5px;
+}
+#logintable td input, #logintable tr td
+{
+    padding: 2px;
+    margin-right: 35px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    
+}
+#logoa
+{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    line-height: 75px;
+    margin-left: 180px;
+}
+
+/* ==========================================*******BODY CSS*******================================== */
+
+#products
+{
+    
+    position: relative;
+    top: 150px;
+    height: 250px;
+    width: 100%;
+}
+#prod1
+{
+    
+    height: 250px;
+    float: left;
+    width: 33.333%;
+}
+#prod2
+{
+    
+    height: 250px;
+    float: left;
+    width: 33.333%;
+}
+#prod3
+{
+    /* background-color: skyblue; */
+    height: 250px;
+    float: left;
+    width: 33.333%;
+}
+#img1
+{
+    
+    background-image: url(./images/a.jpg);
+    margin: 10px;
+    height: 230px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+#img2
+{
+    background-image: url(./images/b.jpg);
+    margin: 10px;
+    height: 230px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+#img3
+{
+    background-image: url(./images/c.jpg);
+    margin: 10px;
+    height: 230px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+#img1:hover,#img2:hover,#img3:hover
+{
+    box-shadow: 0 0 0px 0px white inset;
+    
+}

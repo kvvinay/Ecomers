@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>KV Enterprise || Login</title>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div id="logo">
+                <a id='logoa' href="#">{{shopName}}</a>
+            </div>
+            <div id="logsig">
+                <form action="http://localhost:3000/auth" method="GET">
+                    <table id="logintable">
+                        <tr>
+                            <td>Email Id</td>
+                            <td>Password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="email" name="Uemail"></td>
+                            <td><input type="password" id="pass" name="Upass"></td>
+                            <td><input type="submit" id="logsub" style="padding: 5px 10px; color: white;cursor: pointer; background-color: #4267b2;" value="Login" ></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="#" style="text-decoration: none; color: #9cb4d8;">Forgotten password?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="products">
+            <div id="prod1">
+                <div id="img1" title="Immunity Boosters"></div>
+            </div>
+            <div id="prod2">
+                <div id="img2" title="Baby Care" ></div>
+            </div>
+            <div id="prod3">
+                <div id="img3" title='Skin Care'></div>
+            </div>
+        </div>
+    </div>
+    
+    {{!-- <script src="/js/index.js"></script> --}}
+</body>
+</html>
